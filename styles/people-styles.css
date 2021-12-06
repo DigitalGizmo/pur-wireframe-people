@@ -1,0 +1,56 @@
+
+
+/*Begin people styles*/
+.basic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.image-full {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.image-full img {
+  width: 100%;
+}
+
+.image-full-caption {
+  align-self: end;
+  background: rgba(53, 53, 38, 0.8);
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0 0 1.5em 1.5em;
+  z-index: 90;
+}
+
+.first-col  {
+  grid-column: 1/2;
+  grid-row: 2;
+  margin-left: 1.5em;
+}
+
+.second-col {
+  grid-column: 2/3;
+}
+
+article.text-side {
+  background: rgba(53, 53, 38, 0.8);
+  grid-column: 3/4;
+  grid-row-start:  1;
+  grid-row-end: last-line;
+  padding: 1em;
+}
+
+.text-side p.intro {
+ font-size: 1.25em;
+ line-height: 1.25em; 
+}
+
+p.caption {
+  font-size: .8em;
+  padding: 1em;
+  border: 1px solid beige;
+}
