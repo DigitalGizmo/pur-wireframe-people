@@ -50,6 +50,6 @@ p.caption {
   color: #BAB692;
   border: 1px solid #686959;
   font-size: .75em;
-  margin: 0;
-  padding: 1em;
+  margin: 0 0 2em 0;
+  padding: .75em;
 }
